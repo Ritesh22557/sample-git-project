@@ -1,13 +1,13 @@
 package com.ritesh.git;
 
-public class Employee implements Comparable<Employee>{
+public class Employee implements Comparable<Employee> {
 
 	private int age;
 
 	private String name;
 
 	public Employee() {
-	
+
 	}
 
 	public Employee(int age, String name) {
@@ -39,8 +39,7 @@ public class Employee implements Comparable<Employee>{
 	@Override
 	public int compareTo(Employee emp) {
 
-		return 0;
+		return (this.age < emp.age) ? -1 : (this.age > emp.age) ? 1 : 0;
 	}
-	
-	
+
 }
