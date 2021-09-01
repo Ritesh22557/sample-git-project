@@ -3,8 +3,12 @@ package com.ritesh.git;
 public class Employee {
 
 	private int age;
-	
+
 	private String name;
+
+	public Employee() {
+
+	}
 
 	public int getAge() {
 		return age;
