@@ -27,6 +27,7 @@ public class Client {
 		// implemented comparable interface
 		
 		//Collections.sort(al);
+		
 		Collections.sort(al,new NameComparator());
 		
 		System.out.println(al.toString());
