@@ -23,7 +23,7 @@ public class Client {
 		al.add(e2);
 		al.add(e3);
 		al.add(e4);
-		// implemented comprable interface
+		// implemented comparable interface
 		Collections.sort(al);
 		System.out.println(al.toString());
 	}
