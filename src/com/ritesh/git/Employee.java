@@ -1,6 +1,8 @@
 package com.ritesh.git;
 
-public class Employee implements Comparable<Employee> {
+import java.util.RandomAccess;
+
+public class Employee implements Comparable<Employee>, RandomAccess{
 
 	private int age;
 
@@ -40,6 +42,6 @@ public class Employee implements Comparable<Employee> {
 	public int compareTo(Employee emp) {
 
 		return (this.age < emp.age) ? -1 : (this.age > emp.age) ? 1 : 0;
-	}
+	} 
 
 }
