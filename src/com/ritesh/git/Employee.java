@@ -1,6 +1,6 @@
 package com.ritesh.git;
 
-public class Employee {
+public class Employee implements Comparable<Employee>{
 
 	private int age;
 
@@ -34,6 +34,12 @@ public class Employee {
 	@Override
 	public String toString() {
 		return "Employee [age=" + age + ", name=" + name + "]";
+	}
+
+	@Override
+	public int compareTo(Employee emp) {
+
+		return 0;
 	}
 	
 	
