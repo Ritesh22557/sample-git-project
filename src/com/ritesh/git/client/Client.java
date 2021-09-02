@@ -20,10 +20,12 @@ public class Client {
 		Employee e4 = new Employee(90,"Sitesh Singh");
 		
 		ArrayList<Employee> al = new ArrayList<>();
+		
 		al.add(e1);
 		al.add(e2);
 		al.add(e3);
 		al.add(e4);
+		
 		// implemented comparable interface
 		
 		//Collections.sort(al);
